@@ -56,3 +56,17 @@ from django.http import HttpResponse
 def index(request):
     html = "<h1>Hello World</h1>"
     return HttpResponse(html)
+
+
+
+
+py manage.py makemigrations
+py manage.py migrate
+
+
+(psql)
+Creating Database
+CREATE SERVER (Name) OWNER (OwnerName/Username);
+
+Seeing the list
+\l
